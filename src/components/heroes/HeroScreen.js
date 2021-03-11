@@ -28,7 +28,7 @@ export const HeroScreen = ({history}) => {
     return (
         <div className='row mt-5'>
             <div className='col-4'>
-                <img src={`../assets/heroes/${heroeId}.jpg`} 
+                <img src={`../React-Heroes-SPA/assets/heroes/${heroeId}.jpg`} 
                     className='img-thumbnail animate__animated animate__fadeIn'
                     alt={superhero}
                     style={{maxHeight:520, backgroundColor:'#E5E5E5', borderColor:"gray"}}
